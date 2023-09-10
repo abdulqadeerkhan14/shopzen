@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+    nav .mobile_logo{
+    display: none;
+}
+.js_product .product_name{
+    font-size: 16px;
+    margin: 0%;
+    /* background-color: red; */
+}
+.shop_main{
+    min-height: 300px;
+    background-color: #3f8f8b;
+}
+.shop_main h1{
+    color: white;
+}
+.shop_main a,p{
+    color: white;
+}
+.mobile_navbar{
+    position: fixed;
+    bottom: 0;
+    left: 0; /* You can also use right: 0; for right alignment */
+    width: 100%; /* Make it span the full width of the viewport */
+    z-index: 1000;
+    margin: 0;
+    background-color: #3f8f8b;
+}
+.mobile_navbar a{
+    color: white    ;
+}
+.mobile_navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 567px){
+    .checking{
+        background-color: cyan;
+    }
+    .mobile_logo{
+        display: block;
+    }
+    .js_product .product_name{
+        font-size: 14px;
+        margin: 0%;
+        /* background-color: yellow; */
+    }
+    .js_product .discount{
+        font-size: 10px;
+    }
+
+}
